@@ -1,0 +1,93 @@
+:root {
+  --navy: #0b1f4d;
+  --pink: #e75480;
+  --white: #ffffff;
+  --lightpink: #fff0f5;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: var(--white);
+  color: var(--navy);
+}
+
+.navbar {
+  background-color: var(--navy) !important;
+}
+
+.navbar a,
+.navbar-brand {
+  color: var(--white) !important;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: var(--pink) !important;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--navy), var(--pink));
+  color: var(--white);
+  padding: 3rem 2rem;
+  border-radius: 18px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.page-image {
+  display: block;
+  margin: 1.5rem auto 0 auto;
+  width: 260px;
+  max-width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.quarto-listing-container-grid .card {
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(11, 31, 77, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: var(--white);
+}
+
+.quarto-listing-container-grid .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(11, 31, 77, 0.18);
+}
+
+.quarto-listing-container-grid .card-title a {
+  color: var(--navy);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.quarto-listing-container-grid .card-title a:hover {
+  color: var(--pink);
+}
+
+.quarto-category {
+  background-color: var(--lightpink);
+  color: var(--pink);
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.85rem;
+}
+
+h1, h2, h3, h4 {
+  color: var(--navy);
+}
+
+a {
+  color: var(--pink);
+}
+
+a:hover {
+  color: var(--navy);
+}
+
+footer {
+  background-color: var(--navy);
+  color: var(--white);
+}
